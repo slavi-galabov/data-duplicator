@@ -42,7 +42,7 @@ class Data_duplicator extends CI_Model {
     /**
      * Copy
      *
-     * @author Slavi Galabov / Rainbowgrp
+     * @author Slavi Galabov 
      * @param    array $replace / array('column' => value_to_replace)
      * @param    array $where_raw 
      * @param    string $table 
@@ -114,7 +114,7 @@ class Data_duplicator extends CI_Model {
     /**
      * Check
      *
-     * @author Slavi Galabov / Rainbowgrp
+     * @author Slavi Galabov 
      * @param    array $recipient_where 
      * @param    array $donor_where 
      * @param    string $table
@@ -163,7 +163,7 @@ class Data_duplicator extends CI_Model {
     /**
      * Compare tables
      *
-     * @author Slavi Galabov / Rainbowgrp
+     * @author Slavi Galabov
      * @param    string $table_donor 
      * @param    string $table_recipient 
      * @return   bool / array FALSE if NOT match, Table description if they match
