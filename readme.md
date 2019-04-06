@@ -1,10 +1,10 @@
 # Description
 
-CodeIgniter library for duplicating data from same table or other table with same structure.
+CodeIgniter library for duplicating data from same table or other DB with same table name and structure.
 
 ## Purpose
 
-With this library you can easily copy settings or configurations from one user to other.
+With this library you can easily copy settings or configurations from one user to another.
 
 ## Example
 
@@ -23,8 +23,7 @@ With this library you can easily copy settings or configurations from one user t
 
         if(!$partner_id || !$group_id){
 		
-			$this->errors[] = __('Please provide all required data!');
-			
+	    $this->errors[] = __('Please provide all required data!');	
             return FALSE;
         }
 
